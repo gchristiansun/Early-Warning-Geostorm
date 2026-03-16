@@ -29,18 +29,18 @@ Dashboard ini melakukan:
 monitoring-geostorm/
 │
 ├── api/
-│   └── dst-scrapper.js        # API untuk scraping data DST
+│   └── dst-scrapper.js       
 │
 ├── src/
 │   │
 │   ├── component/
-│   │   └── DSTChart.jsx       # Komponen grafik DST
+│   │   └── DSTChart.jsx     
 │   │
-│   ├── App.jsx                # Main dashboard
-│   ├── main.jsx               # Entry React
+│   ├── App.jsx                
+│   ├── main.jsx             
 │   └── index.css
 │
-├── testScrapper.js            # Script testing scraper lokal
+├── testScrapper.js            
 │
 ├── package.json
 ├── vite.config.js
@@ -160,19 +160,6 @@ Setelah deploy, API tersedia di:
 ```
 https://your-project.vercel.app/api/dst-scrapper
 ```
-
----
-
-# Geomagnetic Storm Level
-
-Dst Index digunakan untuk menentukan tingkat geomagnetic storm.
-
-| Dst Index | Level          |
-| --------- | -------------- |
-| > -50     | Quiet          |
-| < -50     | Minor Storm    |
-| < -100    | Moderate Storm |
-| < -200    | Intense Storm  |
 
 ---
 
